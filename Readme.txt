@@ -1,0 +1,3 @@
+--use to test install and version git cli> git --version
+--to initialise git use cli> git init
+--to know current status of tracking file use cli > git status
