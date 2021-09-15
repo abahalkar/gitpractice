@@ -18,5 +18,5 @@
     git checkout master     => move to master 
     git branch     => show all branches 
     git branch [BRANCH NAME]     => create branches 
-    
+    git merge [BRANCH NAME] => merge branch into another branch, first go inside branch and cli and select branch where to merge
 */
