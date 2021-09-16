@@ -14,9 +14,19 @@
 
     git log     => history of commit dakhvto
 
+<<<<<<< HEAD
     git checkout [commitID]  => tya breakpotint(one commint is breakpoint) vr switch karto
     git checkout master     => move to master 
     git branch     => show all branches 
     git branch [BRANCH NAME]     => create branches 
     
+=======
+    git checkout [commitID]  => tya breakpotint vr switch karto
+    git checkout master     => move to master 
+    git branch     => show all branches 
+    git branch [BRANCH NAME]     => create branches 
+    git merge [BRANCH NAME] => merge branch into another branch, first go inside branch and cli and select branch where to merge
+>>>>>>> master
 */
+
+git branch -D [BRANCH NAME] =>delete branch
