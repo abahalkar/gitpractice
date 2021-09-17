@@ -25,8 +25,13 @@
     git checkout master     => move to master 
     git branch     => show all branches 
     git branch [BRANCH NAME]     => create branches 
-    git merge [BRANCH NAME] => merge branch into another branch, first go inside branch and cli and select branch where to merge
+    git merge [BRANCH NAME] => merge branch into another branch, first go inside branch and cli and select branch which you want to merge. e.g) there are two branch master and child, you want to merge child into master then checkout to master and fire cli git merge child, by this child merge into master
 >>>>>>> master
 */
 
 git branch -D [BRANCH NAME] =>delete branch
+git reset --soft [HEAD~1 ]=> rollback commit, change no of head count to how much previous commit want to rollback
+
+/*create git hub site*/
+-login to github and create repository
+- go inside repository->setting->pages from left menu->select source branch from dropdown and save it will give you site url
